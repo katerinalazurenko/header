@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__info">
+      <ul class="header__info-list container">
+        <li class="header__info-item icon-location">Москва</li>
+        <li class="header__info-item icon-time mobile-hidden">Пн-Пт с 8:00-18:00</li>
+        <li class="header__info-item icon-email mobile-hidden">promair@mail.ru</li>
+        <li class="header__info-item mobile-hidden">
+          <a href="#" class="header__info-soc icon-telegram"></a>
+          <a href="#" class="header__info-soc icon-whatsapp"></a>
+        </li>
+        <li class="header__info-item icon-phone">+7 (900) 111-22-33</li>
+      </ul>
+    </div>
+    <div class="header__bottom">
+      <div class="header__bottom-wrapper container">
+        <div class="header__bottom-icon icon-catalog desktop-hidden"></div>
+        <div class="header__bottom-icon icon-search desktop-hidden"></div>
+        <a href="#" class="header__logo">
+          <img src="./img/logo.png" alt="logo">
+        </a>
+        <nav class="header__menu-wrapper header__menu-wrapper_hidden">
+          <ul class="header__menu">
+            <li class="header__menu-item"><a href="#">Главная</a></li>
+            <li class="header__menu-item"><a href="#">О компании</a></li>
+            <li class="header__menu-item header__menu-item_active"><a href="#">Проекты</a></li>
+            <li class="header__menu-item"><a href="#">Новости</a></li>
+            <li class="header__menu-item"><a href="#">Отзывы и сертификаты</a></li>
+            <li class="header__menu-item"><a href="#">Контакты</a></li>
+          </ul>
+          <div class="header__menu-info desktop-hidden">
+            <div class="header__menu-info-item icon-location ">Москва</div>
+            <div class="header__menu-info-item icon-phone">+7 (900) 111-22-33</div>
+          </div>
+        </nav>
+        <button class="header__btn">Заказать звонок</button>
+        <div class="header__bottom-icon icon-phone medium-hidden"></div>
+        <div class="header__bottom-icon icon-menu icon-open desktop-hidden"></div>
+      </div>
+    </div>
+  </header>
+  <div class="content"></div>
+</body>
+<script src="js/main.js"></script>
+</html>
